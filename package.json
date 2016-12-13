@@ -1,0 +1,15 @@
+{
+  "name": "jsonbrowse-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy",
+  "main": "index.js",
+  "author": "Jori Lallo",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro -p 3000"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "micro": "^6.1.0"
+  }
+}
